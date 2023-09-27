@@ -1,74 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Сайт-визитка с блогом</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #3498db;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-    nav {
-      background-color: #2ecc71;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      padding: 20px;
-    }
-    .blog-post {
-      border-bottom: 1px solid #ccc;
-      padding: 10px 0;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-  <h1>Мой сайт-визитка</h1>
+  <div class="container">
+    <h1>Мой сайт-визитка</h1>
+  </div>
 </header>
 
 <nav>
-  <a href="#">Главная</a>
-  <a href="#">О нас</a>
-  <a href="#">Контакты</a>
-  <a href="#">Блог</a>
+  <div class="container">
+    <a href="#">Главная</a>
+    <a href="#">О нас</a>
+    <a href="#">Контакты</a>
+    <a href="#">Блог</a>
+  </div>
 </nav>
 
 <main>
-  <h2>Добро пожаловать на мой сайт-визитку!</h2>
-  <p>Здесь вы найдете информацию о нашей компании и последние записи в блоге.</p>
+  <div class="container">
+    <section>
+      <h2>Добро пожаловать на мой сайт-визитку!</h2>
+      <p>Здесь вы найдете информацию о нашей компании и последние записи в блоге.</p>
+    </section>
 
-  <h3>Последние записи в блоге:</h3>
+    <section class="blog-section">
+      <h3>Последние записи в блоге:</h3>
 
-  <div class="blog-post">
-    <h4>Заголовок поста 1</h4>
-    <p>Текст поста 1.</p>
-  </div>
+      <div class="blog-post">
+        <h4>Заголовок поста 1</h4>
+        <p>Текст поста 1.</p>
+      </div>
 
-  <div class="blog-post">
-    <h4>Заголовок поста 2</h4>
-    <p>Текст поста 2.</p>
+      <div class="blog-post">
+        <h4>Заголовок поста 2</h4>
+        <p>Текст поста 2.</p>
+      </div>
+    </section>
   </div>
 </main>
 
 <footer>
-  <p>&copy; 2023 Мой сайт-визитка</p>
+  <div class="container">
+    <p>&copy; 2023 Мой сайт-визитка</p>
+  </div>
 </footer>
 
 </body>
