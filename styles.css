@@ -20,7 +20,7 @@ body {
 }
 
 .space-nav {
-  background-color: #0c1442;
+  background-color: black; /* Изменено на черный */
   color: #fff;
   padding: 10px 0;
   text-align: center;
